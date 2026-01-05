@@ -1,0 +1,250 @@
+[
+  {
+    "id": "prod-01",
+    "name": "Skin Perfecting Protective Base Prep",
+    "price": 79,
+    "category": "primer",
+    "image": "https://i.pinimg.com/736x/34/a3/e1/34a3e132d6340c734f75f9a361a5b621.jpg",
+    "description": "A lightweight base prep that protects and perfects your skin for flawless makeup application."
+  },
+  {
+    "id": "prod-02",
+    "name": "Whole Plant Effect Essential Cream",
+    "price": 77,
+    "category": "cream",
+    "image": "https://i.pinimg.com/736x/b6/f2/da/b6f2dad1c62587dbae4c6699e92ec678.jpg",
+    "description": "Nourishing cream enriched with plant extracts to deeply hydrate and restore skin balance."
+  },
+  {
+    "id": "prod-03",
+    "name": "Calming & Comforting Ampoule",
+    "price": 50,
+    "category": "ampoule",
+    "image": "https://i.pinimg.com/1200x/25/aa/81/25aa813cbcd027c11578535bdef2650c.jpg",
+    "description": "Soothing ampoule designed to calm sensitive skin and reduce redness."
+  },
+  {
+    "id": "prod-04",
+    "name": "Hydrating & Soothing Cream",
+    "price": 49,
+    "category": "cream",
+    "image": "https://i.pinimg.com/1200x/40/45/99/404599b556b3cf2e66c01f79118fde60.jpg",
+    "description": "Rich cream that hydrates deeply while calming irritated skin."
+  },
+  {
+    "id": "prod-05",
+    "name": "Whole Plant Effect Concentrate",
+    "price": 88,
+    "category": "serum",
+    "image": "https://i.pinimg.com/1200x/d7/10/69/d7106991634cb4014683856e7539aeca.jpg",
+    "description": "Concentrated serum that boosts skin radiance and vitality with plant-based actives."
+  },
+  {
+    "id": "prod-06",
+    "name": "Anti-Aging Essential Cream",
+    "price": 99,
+    "category": "cream",
+    "image": "https://i.pinimg.com/1200x/49/b1/66/49b1663426e8b9c91ff4100e3f9df6e1.jpg",
+    "description": "Advanced cream that reduces fine lines and promotes youthful-looking skin."
+  },
+  {
+    "id": "prod-07",
+    "name": "Soothing Toner",
+    "price": 45,
+    "category": "toner",
+    "image": "https://i.pinimg.com/1200x/d7/76/14/d776146f3c7ee361ad8411eaa8a5275a.jpg",
+    "description": "Gentle toner that refreshes skin and prepares it for better absorption of skincare products."
+  },
+  {
+    "id": "prod-08",
+    "name": "Moisturizing Mist",
+    "price": 35,
+    "category": "mist",
+    "image": "https://i.pinimg.com/736x/75/d1/d0/75d1d087b428f382daf1e90a9fd14df0.jpg",
+    "description": "Lightweight mist to hydrate your skin throughout the day, leaving a dewy finish."
+  },
+  {
+    "id": "prod-09",
+    "name": "Hydration Ampoule",
+    "price": 60,
+    "category": "ampoule",
+    "image": "https://i.pinimg.com/736x/d7/10/69/d7106991634cb4014683856e7539aeca.jpg",
+    "description": "High-performance ampoule for deep hydration and skin comfort."
+  },
+  {
+    "id": "prod-10",
+    "name": "Firming Serum",
+    "price": 82,
+    "category": "serum",
+    "image": "https://i.pinimg.com/1200x/61/73/c1/6173c1803fb9aa4caaca7a8574a3a4a7.jpg",
+    "description": "Serum that firms and lifts skin, improving elasticity and texture."
+  },
+  {
+    "id": "prod-11",
+    "name": "Night Repair Cream",
+    "price": 92,
+    "category": "cream",
+    "image": "https://i.pinimg.com/1200x/d2/5e/b8/d25eb8f458f3a3034e92a1736af8ff1c.jpg",
+    "description": "Repairing night cream to restore skin overnight and reduce signs of fatigue."
+  },
+  {
+    "id": "prod-12",
+    "name": "Brightening Serum",
+    "price": 85,
+    "category": "serum",
+    "image": "https://i.pinimg.com/736x/ff/6d/12/ff6d129f0c729afd53d427eb786f589b.jpg",
+    "description": "Lightening serum to even skin tone and enhance natural radiance."
+  },
+  {
+    "id": "prod-13",
+    "name": "Rejuvenating Toner",
+    "price": 40,
+    "category": "toner",
+    "image": "https://i.pinimg.com/736x/b6/97/9b/b6979b7d61c53c99cb474e3808c1d0ce.jpg",
+    "description": "Toner infused with natural extracts to rejuvenate and refresh skin."
+  },
+  {
+    "id": "prod-14",
+    "name": "Deep Moisture Cream",
+    "price": 78,
+    "category": "cream",
+    "image": "https://i.pinimg.com/736x/ab/cc/ec/abccec287a8ebdb5768b43ca181f7de8.jpg",
+    "description": "Rich cream that deeply moisturizes and protects the skin barrier."
+  },
+  {
+    "id": "prod-15",
+    "name": "Soothing Mist",
+    "price": 32,
+    "category": "mist",
+    "image": "https://i.pinimg.com/1200x/c4/b8/26/c4b826b0fd79c50714bf6cbd44bcc516.jpg",
+    "description": "Refreshing mist to calm and hydrate skin anytime."
+  },
+  {
+    "id": "prod-16",
+    "name": "Anti-Aging Ampoule",
+    "price": 70,
+    "category": "ampoule",
+    "image": "https://i.pinimg.com/736x/30/72/2f/30722f60cf67681e2f08eb36fcb21d2a.jpg",
+    "description": "Targeted ampoule to fight wrinkles and promote youthful skin."
+  },
+  {
+    "id": "prod-17",
+    "name": "Nourishing Serum",
+    "price": 88,
+    "category": "serum",
+    "image": "https://i.pinimg.com/1200x/2a/5c/a7/2a5ca70ce41b24ed98a4ab361cddf650.jpg",
+    "description": "Nourishing serum rich in vitamins to restore skin vitality."
+  },
+  {
+    "id": "prod-18",
+    "name": "Hydrating Toner",
+    "price": 46,
+    "category": "toner",
+    "image": "https://i.pinimg.com/736x/9c/0f/15/9c0f15bd5503b4de8bbef0c53afc7609.jpg",
+    "description": "Gentle hydrating toner to prep skin and boost moisture levels."
+  },
+  {
+    "id": "prod-19",
+    "name": "Brightening Ampoule",
+    "price": 55,
+    "category": "ampoule",
+    "image": "https://i.pinimg.com/1200x/ab/91/67/ab91677409787abb4288cba7ae2379f0.jpg",
+    "description": "Ampoule that brightens dull skin and improves luminosity."
+  },
+  {
+    "id": "prod-20",
+    "name": "Moisture Cream",
+    "price": 66,
+    "category": "cream",
+    "image": "https://i.pinimg.com/736x/47/7b/e0/477be07bf875adfc98fd0c800710f71a.jpg",
+    "description": "Daily cream that hydrates and smooths skin texture."
+  },
+  {
+    "id": "prod-21",
+    "name": "Hydrating Serum",
+    "price": 72,
+    "category": "serum",
+    "image": "https://i.pinimg.com/1200x/d1/15/a7/d115a75d823a0ba872dd851b13d15d47.jpg",
+    "description": "Serum providing long-lasting hydration and softness."
+  },
+  {
+    "id": "prod-22",
+    "name": "Calming Mist",
+    "price": 38,
+    "category": "mist",
+    "image": "https://i.pinimg.com/1200x/6b/0b/99/6b0b995ee0a89baeddf7ea2a5df87cae.jpg",
+    "description": "Mist that soothes skin, perfect for sensitive skin types."
+  },
+  {
+    "id": "prod-23",
+    "name": "Night Cream",
+    "price": 90,
+    "category": "cream",
+    "image": "https://i.pinimg.com/736x/31/c4/80/31c480af6733b50a6ce8fde927c31c78.jpg",
+    "description": "Rich night cream that deeply repairs skin while you sleep."
+  },
+  {
+    "id": "prod-24",
+    "name": "Revitalizing Ampoule",
+    "price": 65,
+    "category": "ampoule",
+    "image": "https://i.pinimg.com/736x/9a/94/99/9a9499027b75611c882e4d1229d3dff3.jpg",
+    "description": "Ampoule that revitalizes tired skin and restores energy."
+  },
+  {
+    "id": "prod-25",
+    "name": "Firming Cream",
+    "price": 82,
+    "category": "cream",
+    "image": "https://i.pinimg.com/736x/6b/24/5f/6b245ff487b264227e81c32cac9bab29.jpg",
+    "description": "Cream that firms and tightens skin for a youthful appearance."
+  },
+  {
+    "id": "prod-26",
+    "name": "Soothing Serum",
+    "price": 75,
+    "category": "serum",
+    "image": "https://i.pinimg.com/736x/30/47/6f/30476ff375bf7ce057dc5a81ba94e69e.jpg",
+    "description": "Serum that calms irritated skin and restores balance."
+  },
+  {
+    "id": "prod-27",
+    "name": "Hydration Ampoule 2",
+    "price": 60,
+    "category": "ampoule",
+    "image": "https://i.pinimg.com/1200x/25/aa/81/25aa813cbcd027c11578535bdef2650c.jpg",
+    "description": "Second variant of hydrating ampoule for intense moisture."
+  },
+  {
+    "id": "prod-28",
+    "name": "Calming Cream",
+    "price": 55,
+    "category": "cream",
+    "image": "https://i.pinimg.com/1200x/dd/7f/42/dd7f421ab8b6f03aabe211182dca3bf3.jpg",
+    "description": "Gentle cream that soothes redness and irritation."
+  },
+  {
+    "id": "prod-29",
+    "name": "Soothing Toner 2",
+    "price": 47,
+    "category": "toner",
+    "image": "https://i.pinimg.com/1200x/02/8f/6f/028f6fab7df21d3d173ff0b7e29bac19.jpg",
+    "description": "Second version of soothing toner for extra skin comfort."
+  },
+  {
+    "id": "prod-30",
+    "name": "Brightening Mist",
+    "price": 50,
+    "category": "mist",
+    "image": "https://i.pinimg.com/736x/30/72/2f/30722f60cf67681e2f08eb36fcb21d2a.jpg",
+    "description": "Mist to brighten skin and provide instant hydration."
+  },
+  {
+    "id": "prod-31",
+    "name": "Hydrating Ampoule 3",
+    "price": 63,
+    "category": "ampoule",
+    "image": "https://i.pinimg.com/736x/32/a5/c2/32a5c20c2c04a4724d7845aaae687f01.jpg",
+    "description": "Third variant of hydrating ampoule for intensive skin moisture."
+  }
+]
