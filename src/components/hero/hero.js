@@ -57,7 +57,7 @@ export default function Hero() {
 
         <div className="hero_title">
          <div className="hero_title_row">
-            <h2 className="hero_title_row_text">Premium Skincare Collection</h2>
+            <h2 className="hero_title_row_text">Premium Skincare</h2>
         </div>
 
       <div className="hero_title_row">
@@ -67,7 +67,6 @@ export default function Hero() {
      <div className="hero_title_row">
        <h1 className="hero_title_row_text">Timeless Skin Confidence</h1>
      </div>
-
         </div>
 
         <div className="hero_media">
