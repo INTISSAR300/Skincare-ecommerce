@@ -7,23 +7,20 @@ export default function Navbar() {
   const navRef = useRef(null);
 
   useLayoutEffect(() => {
-    // 1. Safety check
+ 
     if (!window.gsap || !navRef.current) return;
 
     const nav = navRef.current;
     const q = gsap.utils.selector(nav);
 
-    // 2. Kill any old animations
+
     gsap.killTweensOf(nav);
     gsap.killTweensOf(q(".logo, .nav_link, .likes-counter"));
-
-    // 3. Setup Timeline
     const tl = gsap.timeline({ 
       defaults: { ease: "power4.out" } 
     });
 
-    // 4. THE ANIMATION
-    // We start from a clear state
+
     tl.fromTo(nav, 
       { y: -100, opacity: 0 }, 
       { y: 0, opacity: 1, duration: 1 }
@@ -44,9 +41,10 @@ export default function Navbar() {
       </div>
 
       <nav className="nav_center">
-        <Link to="/about" className="nav_link">ABOUT US</Link>
-        <Link to="/shop" className="nav_link">SHOP</Link>
-        <Link to="/contact" className="nav_link">CONTACTS</Link>
+        <Link to="/creams" className="nav_link">Cream</Link>
+        <Link to="/Serums" className="nav_link">Serum</Link>
+        <Link to="/Toners" className="nav_link">Toner</Link>
+        <Link to="/Ampoules" className="nav_link">Ampoule</Link>
       </nav>
 
       <div className="nav_right">

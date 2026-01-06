@@ -11,18 +11,17 @@
   width: 100% !important;
   height: 90px !important;
   
-  /* Layout */
+
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
   padding: 0 50px !important;
-  
-  /* Visuals */
+
   background-color: var(--bg-color) !important;
   border-bottom: 2px solid var(--border-color) !important;
-  z-index: 999999 !important; /* Above everything else */
+  z-index: 999999 !important; 
   
-  /* Force it to be visible even if GSAP fails */
+ 
   opacity: 1 !important;
   visibility: visible !important;
   transform: none; 
@@ -66,10 +65,30 @@
   font-size: 15px;
 }
 
-/* If this media query is active, it hides your links. 
-   Check if your screen is smaller than 850px! */
-@media (max-width: 850px) {
-  .nav_center {
-    display: none !important;
-  }
-}
+/* --- MOBILE NAV OVERRIDES --- */
+    @media screen and (max-width: 768px) {
+        .nav {
+            padding: 1.5rem 2rem; 
+        }
+        .nav_item_list { 
+            gap: 1.3rem; 
+        }
+        .nav_item {
+            font-size: 0.1rem;
+            letter-spacing: 1px;
+        }
+        .logo {
+            font-size: 1.8rem;
+            letter-spacing: 2px;
+        }
+        .heart-icon-nav {
+            font-size: 2.5rem;
+            margin-left: 10px;
+        }
+        #like-count {
+            width: 3rem;
+            height: 3rem;
+            font-size: 2rem;
+            text-align: center;
+        }
+    }

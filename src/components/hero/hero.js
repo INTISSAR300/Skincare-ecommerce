@@ -56,15 +56,18 @@ export default function Hero() {
       <div className="hero_wrapper">
 
         <div className="hero_title">
-          <div className="hero_title_row">
-            <h2 className="hero_title_row_text">Unseen Scenario</h2>
-          </div>
-          <div className="hero_title_row">
-            <h2 className="hero_title_row_text">Nature's Reclamation</h2>
-          </div>
-          <div className="hero_title_row">
-            <h1 className="hero_title_row_text">The Effects of Tim</h1>
-          </div>
+         <div className="hero_title_row">
+            <h2 className="hero_title_row_text">Premium Skincare Collection</h2>
+        </div>
+
+      <div className="hero_title_row">
+        <h2 className="hero_title_row_text">Nature Meets Science</h2>
+      </div>
+
+     <div className="hero_title_row">
+       <h1 className="hero_title_row_text">Timeless Skin Confidence</h1>
+     </div>
+
         </div>
 
         <div className="hero_media">

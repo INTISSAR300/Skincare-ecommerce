@@ -24,16 +24,16 @@ html, body {
 }
 
 main {
-    min-height: 100vh;  /* allows scroll if content taller than viewport */
+    min-height: 100vh;  
 }
 
-/* --- PRODUCT GRID --- */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 60px 40px;
     gap: 15px;
     align-items: start;
+    margin-top: 45px;
 }
 
 .product-card {
@@ -44,7 +44,6 @@ main {
 }
 .product-card:hover { transform: translateY(-5px); }
 
-/* staggered vertical spacing */
 .product-card:nth-child(3n+2) { margin-top: 80px; }
 .product-card:nth-child(3n+3) { margin-top: 40px; }
 
@@ -95,19 +94,32 @@ main {
     display: flex;
     border-top: 1px solid var(--border-color);
 }
-.add-btn {
+.details-btn {
+    /* 1. Make it fill the space like a button */
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* 2. Styling */
     background: transparent;
-    border: none;
+    text-decoration: none; /* Remove default link underline */
     padding: 18px;
     font-weight: bold;
     font-size: 11px;
-    cursor: pointer;
     text-transform: uppercase;
-    transition: background 0.3s, color 0.3s;
     color: var(--text-color);
+    
+    /* 3. Smooth transition */
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
-.add-btn:hover { background: var(--text-color); color: var(--bg-color);}
+
+.details-btn:hover {
+    background: var(--text-color);
+    color: var(--bg-color);
+}
+
 .arrow-btn {
     width: 50px;
     border-left: 1px solid var(--border-color);

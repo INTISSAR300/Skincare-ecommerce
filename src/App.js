@@ -7,6 +7,10 @@ import Shop from "./pages/Shop";
 import ProductDetails from "./pages/ProductDetails";
 import Nav from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
+import Serum from "./pages/serum";
+import Cream from "./pages/cream";
+import Toner from "./pages/toner";
+import Ampoule from "./pages/ampoule";
 
 export default function App(){
     const [products,steProducts]=useState([])
@@ -23,10 +27,16 @@ export default function App(){
         <BrowserRouter>
             <Nav/>
           <Routes>
+          {/* nav path */}
             <Route path="/" element={<Home products={products}/>}/>
-            <Route path="/About" element={<About products={products}/>}/>
-            <Route path="/Shop" element={<Shop products={products}/>}/>
-            <Route path="/Details" element={<ProductDetails products={products}/>}/>
+            <Route path="/Serums" element={<Serum products={products}/>}/>
+            <Route path="/Creams" element={<Cream products={products}/>}/>
+            <Route path="/Toners" element={<Toner products={products}/>}/>
+            <Route path="/Ampoules" element={<Ampoule products={products}/>}/>
+            <Route path="/Details/:id" element={<ProductDetails products={products}/>}/>
+            {/* footer path */}
+            <Route path="/About" element={<About/>}/>
+            <Route path="/Shop" element={<Shop />}/>
           </Routes>
           <Footer/>
         </BrowserRouter>

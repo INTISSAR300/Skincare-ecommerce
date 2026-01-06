@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Counter from './testCounter';
 import Hero from './components/hero/hero';
-import Home from './pages/Home';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

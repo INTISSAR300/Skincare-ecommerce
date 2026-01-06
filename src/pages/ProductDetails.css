@@ -1,0 +1,206 @@
+/* --- GOOGLE FONTS IMPORT --- */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Inter:wght@300;400;600&display=swap');
+
+:root {
+    --bg-color: #edebe4;
+    --border-color: #1a1a1a;
+    --text-color: #1a1a1a;
+    --accent-gray: #7a7a7a;
+
+    --font-serif: 'Cormorant Garamond', serif;
+    --font-sans: 'Inter', sans-serif;
+}
+
+
+.details-container {
+    min-height: 100vh;
+    padding: 120px 40px 60px; 
+    display: flex;
+    justify-content: center;
+    background-color: var(--bg-color);
+}
+
+.details-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    width: 100%;
+    max-width: 1300px;
+    border: 1px solid var(--border-color);
+    background: var(--bg-color);
+}
+
+.details-visual {
+    padding: 60px;
+    border-right: 1px solid var(--border-color);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f1ed; 
+}
+
+.back-btn {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: none;
+    border: none;
+    font-family: var(--font-sans);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color: var(--text-color);
+    transition: opacity 0.3s ease;
+}
+
+.back-btn:hover {
+    opacity: 0.5;
+}
+
+.image-wrapper img {
+    max-width: 100%;
+    height: auto;
+    mix-blend-mode: multiply; 
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.image-wrapper:hover img {
+    transform: scale(1.05);
+}
+
+
+.details-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-header {
+    padding: 60px 50px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.category-label {
+    font-family: var(--font-sans);
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--accent-gray);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+.product-name {
+    font-family: var(--font-serif);
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    color: var(--text-color);
+    text-transform: none; 
+    letter-spacing: -0.5px;
+}
+
+.product-price {
+    font-family: var(--font-sans);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.info-body {
+    padding: 50px;
+    flex-grow: 1;
+}
+
+.product-description {
+    font-family: var(--font-sans);
+    line-height: 1.7;
+    font-size: 15px;
+    margin-bottom: 40px;
+    max-width: 420px;
+    color: #333;
+}
+
+.specs-list {
+    list-style: none;
+}
+
+.specs-list li {
+    font-family: var(--font-sans);
+    font-size: 11px;
+    margin-bottom: 12px;
+    display: flex;
+    letter-spacing: 0.5px;
+}
+
+.specs-list li span {
+    font-weight: 600;
+    width: 120px;
+    color: var(--accent-gray);
+    text-transform: uppercase;
+}
+
+
+.info-actions {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    border-top: 1px solid var(--border-color);
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    border-right: 1px solid var(--border-color);
+}
+
+.quantity-controls span {
+    font-family: var(--font-sans);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.quantity-controls button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform 0.2s ease;
+}
+
+.quantity-controls button:active {
+    transform: scale(0.8);
+}
+
+.wishlist-btn {
+    font-family: var(--font-sans);
+    background: transparent;
+    border: none;
+    padding: 25px;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.wishlist-btn:hover {
+    background: var(--text-color);
+    color: var(--bg-color);
+}
+
+
+@media (max-width: 1024px) {
+    .product-name { font-size: 42px; }
+}
+
+@media (max-width: 900px) {
+    .details-container { padding: 80px 20px 40px; }
+    .details-grid { grid-template-columns: 1fr; border: none; }
+    .details-visual { border-right: none; border-bottom: 1px solid var(--border-color); padding: 40px; }
+    .info-header, .info-body { padding: 40px 20px; }
+    .product-name { font-size: 38px; }
+}

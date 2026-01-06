@@ -1,5 +1,6 @@
 import{ useState } from "react";
 import "./productStyle.css"
+import { Link } from "react-router-dom";
 
 export default function ProductCard({ product }) {
   const [liked, setLiked] = useState(false);
@@ -19,9 +20,11 @@ export default function ProductCard({ product }) {
         <p className="price">${product.price}</p>
       </div>
       <div className="card-footer">
-        <button className="add-btn">Add to Cart</button>
-        <div className="arrow-btn">→</div>
-      </div>
+        <Link className="details-btn" to={`/Details/${product.id}`}>
+          Product Details
+        </Link>
+      <div className="arrow-btn">→</div>
+</div>
     </div>
   );
 }
