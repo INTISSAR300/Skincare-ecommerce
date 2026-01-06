@@ -2,7 +2,6 @@ react project
 A great `README.md` is the face of your project. For a Senior Developer, it should focus on **Tech Stack**, **Architecture**, and **Design Philosophy**.
 
 Here is a professional, high-end README tailored for **Bella**.
-
 ---
 
 # BELLA — Digital Skincare Sanctuary
