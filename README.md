@@ -18,7 +18,6 @@ This project is built using a modern **SPA (Single Page Application)** architect
 * **Frontend:** [React.js](https://reactjs.org/) (Hooks, Context, Functional Components)
 * **Motion Design:** [GSAP](https://greensock.com/gsap/) (GreenSock Animation Platform) via CDN for high-performance UI sequencing.
 * **Routing:** [React Router v6](https://reactrouter.com/) for seamless, reload-free navigation.
-* **Backend Specification:** [Laravel](https://laravel.com/) (PHP) – Powering robust API endpoints and data integrity.
 * **Styling:** CSS3 Custom Properties (Variables) with a focus on Editorial Typography and Responsive Fluid Layouts.
 
 ---
