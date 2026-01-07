@@ -12,4 +12,4 @@ Here is a professional, high-end README tailored for **Bella**.
 📺 Project Preview
 To see the fluid GSAP animations and the editorial layout in action, watch the walkthrough below:
 
-<div align="center"> <video src="https://github.com/INTISSAR300/Skincare-ecommerce/blob/main/public/explainVd/React%20App%20-%20Google%20Chrome%202026-01-06%2002-01-00.mp4?raw=true" width="100%" controls muted autoplay loop> Your browser does not support the video tag. </video> </div>
+<div align="center"> <video src="[https://github.com/INTISSAR300/Skincare-ecommerce/blob/main/public/explainVd/React%20App%20-%20Google%20Chrome%202026-01-06%2002-01-00.mp4?raw=true](https://github.com/INTISSAR300/Skincare-ecommerce/blob/main/public/explainVd/React%20App%20-%20Google%20Chrome%202026-01-06%2002-01-00.mp4)" width="100%" controls muted autoplay loop> Your browser does not support the video tag. </video> </div>
