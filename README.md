@@ -1,15 +1,60 @@
-react project
-A great `README.md` is the face of your project. For a Senior Developer, it should focus on **Tech Stack**, **Architecture**, and **Design Philosophy**.
+# Skin Care E-Commerce
 
-Here is a professional, high-end README tailored for **Bella**.
----
-
-# BELLA — Digital Skincare Sanctuary
-
-**BELLA** is a high-end e-commerce experience architected for the modern web. It bridges the gap between minimalist editorial design and robust full-stack engineering. Developed as a showcase of performance and fluid motion, BELLA serves as a digital sanctuary for premium skincare.
+A modern, responsive **Skin Care E-Commerce Website** built with **HTML, CSS, JavaScript**, and **GSAP** for smooth animations.  
+The website features clean UI, interactive product displays, and smooth scrolling effects to enhance user experience.
 
 ---
-📺 Project Preview
-To see the fluid GSAP animations and the editorial layout in action, watch the walkthrough below:
 
-<div align="center"> <video src="[https://github.com/INTISSAR300/Skincare-ecommerce/blob/main/public/explainVd/React%20App%20-%20Google%20Chrome%202026-01-06%2002-01-00.mp4?raw=true](https://github.com/INTISSAR300/Skincare-ecommerce/blob/main/public/explainVd/React%20App%20-%20Google%20Chrome%202026-01-06%2002-01-00.mp4)" width="100%" controls muted autoplay loop> Your browser does not support the video tag. </video> </div>
+## ✨ Features
+
+- 🛍️ Product catalog with responsive layout
+- 🎨 Clean and minimal UI for skincare products
+- 📱 Fully responsive for all devices
+- ✨ Smooth animations using **GSAP** (scroll, hover, fade, transitions)
+- 🖱️ Interactive buttons and product cards for better UX
+- 💻 Modern layout with grid and flexbox
+- 🌐 Lightweight and fast frontend
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5**
+- **CSS3**
+- **JavaScript (Vanilla JS)**
+- **GSAP** – GreenSock Animation Platform for smooth transitions
+- **Font Awesome** (icons)
+
+---
+
+## 🖼️ Screenshots / Demo
+
+![Skin Care Homepage](https://raw.githubusercontent.com/INTISSAR300/Skincare-ecommerce/main/public/screenshoot/Screenshot%202026-01-08%20010020.png)
+
+![Product Page](https://raw.githubusercontent.com/INTISSAR300/Skincare-ecommerce/main/public/screenshoot/Screenshot%202026-01-08%20010100.png)
+
+![Product List](https://raw.githubusercontent.com/INTISSAR300/Skincare-ecommerce/main/public/screenshoot/Screenshot%202026-01-08%20010205.png)
+
+![Product Details](https://raw.githubusercontent.com/INTISSAR300/Skincare-ecommerce/main/public/screenshoot/Screenshot%202026-01-08%20010222.png)
+
+![Cart Page](https://raw.githubusercontent.com/INTISSAR300/Skincare-ecommerce/main/public/screenshoot/Screenshot%202026-01-08%20010301.png)
+
+![Checkout](https://raw.githubusercontent.com/INTISSAR300/Skincare-ecommerce/main/public/screenshoot/Screenshot%202026-01-08%20010319.png)
+
+---
+
+## 📂 Project Structure
+
+```txt
+Skincare-ecommerce/
+│
+├── ...
+├── public/
+│   └── screenshoot/
+│       ├── Screenshot 2026-01-08 010020.png
+│       ├── Screenshot 2026-01-08 010100.png
+│       ├── Screenshot 2026-01-08 010205.png
+│       ├── Screenshot 2026-01-08 010222.png
+│       ├── Screenshot 2026-01-08 010301.png
+│       └── Screenshot 2026-01-08 010319.png
+└── README.md
